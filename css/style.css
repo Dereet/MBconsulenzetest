@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #0779e4;
+    font-weight: bold;
+}
+
+main.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.main-content {
+    flex: 3; /* Takes 3 parts of the space */
+}
+
+#info-negozio {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#info-negozio h2, #info-negozio h3 {
+    color: #0779e4;
+}
+
+#google-maps-widget iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Sidebar per le notizie */
+#news-sidebar {
+    flex: 1; /* Takes 1 part of the space */
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#news-sidebar h2 {
+    text-align: center;
+    color: #0779e4;
+    margin-top: 0;
+}
+
+#news-filter {
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#news-container {
+    max-height: 400px; /* Altezza massima per la finestra a scorrimento */
+    overflow-y: auto; /* Abilita lo scorrimento verticale se il contenuto eccede */
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.news-item {
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.news-item h4 {
+    margin: 0 0 5px 0;
+    color: #333;
+}
+.news-item .date, .news-item .tag {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+}
+.news-item .tag span {
+    background-color: #0779e4;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* Pagina Prodotti */
+.product-page h2 {
+    text-align: center;
+    color: #0779e4;
+    margin-bottom: 20px;
+}
+
+#product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(33.333% - 40px); /* Tre prodotti per riga, con gap */
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    text-align: center;
+    min-width: 250px; /* Larghezza minima per item */
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Altezza massima per l'immagine */
+    object-fit: contain; /* Mantiene le proporzioni, non taglia */
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-item .price {
+    font-weight: bold;
+    color: #0779e4;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive adjustments */
+@media(max-width: 768px) {
+    main.container {
+        flex-direction: column;
+    }
+    header nav ul li {
+        display: block;
+        padding: 5px 0;
+    }
+    .product-item {
+        width: calc(50% - 30px); /* Due prodotti per riga su tablet */
+    }
+}
+
+@media(max-width: 500px) {
+    .container {
+        width: 95%;
+    }
+    .product-item {
+        width: calc(100% - 20px); /* Un prodotto per riga su mobile */
+    }
+}

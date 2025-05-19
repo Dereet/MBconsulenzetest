@@ -1,0 +1,91 @@
+{
+  "computer_e_smartphone": [
+    {
+      "Testo": "Laptop UltraSlim X1",
+      "immagine": "images/placeholder.png",
+      "tag": "computer",
+      "descrizione": "Un laptop leggero e potente, ideale per professionisti e studenti. Processore Intel i7, 16GB RAM, SSD 512GB.",
+      "prezzo": "€999.00"
+    },
+    {
+      "Testo": "Smartphone Galaxy Pro",
+      "immagine": "https://via.placeholder.com/300x200.png?text=Galaxy+Pro",
+      "tag": "smartphone",
+      "descrizione": "Smartphone di ultima generazione con display AMOLED, fotocamera da 108MP e batteria a lunga durata.",
+      "prezzo": "€750.00"
+    },
+    {
+      "Testo": "Tablet TabLite 10",
+      "immagine": "images/placeholder.png",
+      "tag": "tablet",
+      "descrizione": "Tablet da 10 pollici perfetto per l'intrattenimento e la produttività leggera.",
+      "prezzo": "€280.00"
+    }
+  ],
+  "videosorveglianza": [
+    {
+      "Testo": "Kit Videosorveglianza Pro HD",
+      "immagine": "images/placeholder.png",
+      "tag": "sicurezza",
+      "descrizione": "Kit completo con 4 telecamere Full HD, visione notturna e DVR con registrazione continua.",
+      "prezzo": "€349.00"
+    },
+    {
+      "Testo": "Telecamera IP Wi-Fi Interna",
+      "immagine": "https://via.placeholder.com/300x200.png?text=Telecamera+IP",
+      "tag": "sicurezza",
+      "descrizione": "Telecamera Wi-Fi per interni con audio bidirezionale e rilevamento del movimento.",
+      "prezzo": "€79.00"
+    }
+  ],
+  "assistenza_tecnica": [
+     {
+      "Testo": "Riparazione PC Desktop/Laptop",
+      "immagine": "images/placeholder.png",
+      "tag": "riparazione",
+      "descrizione": "Servizio di diagnosi e riparazione hardware e software per PC desktop e laptop di tutte le marche.",
+      "prezzo": "A partire da €40.00"
+    },
+    {
+      "Testo": "Recupero Dati",
+      "immagine": "images/placeholder.png",
+      "tag": "servizio",
+      "descrizione": "Servizio professionale di recupero dati da hard disk, SSD e memorie USB danneggiate.",
+      "prezzo": "Preventivo Gratuito"
+    }
+  ],
+  "gestore_telefonico": [
+    {
+      "Testo": "Attivazione SIM e Offerte",
+      "immagine": "images/placeholder.png",
+      "tag": "telefonia",
+      "descrizione": "Attiva la tua nuova SIM con i principali gestori. Scopri le migliori tariffe per chiamate, SMS e internet.",
+      "prezzo": "Variabile"
+    }
+  ],
+  "cartoleria": [
+    {
+      "Testo": "Set Completo Cancelleria Ufficio",
+      "immagine": "https://via.placeholder.com/300x200.png?text=Set+Cancelleria",
+      "tag": "cancelleria",
+      "descrizione": "Set completo di penne, matite, evidenziatori, quaderni e accessori per l'ufficio.",
+      "prezzo": "€25.00"
+    },
+    {
+      "Testo": "Zaino Scuola Ergonomico",
+      "immagine": "images/placeholder.png",
+      "tag": "scuola",
+      "descrizione": "Zaino ergonomico e resistente, disponibile in vari colori e fantasie.",
+      "prezzo": "€45.00"
+    }
+  ],
+  "libri_per_la_scuola": [
+    {
+      "Testo": "Prenotazione Libri Scolastici",
+      "immagine": "images/placeholder.png",
+      "tag": "scolastico",
+      "descrizione": "Servizio di prenotazione e acquisto di libri di testo per scuole elementari, medie e superiori.",
+      "prezzo": "Sconto sul prezzo di copertina"
+    }
+  ]
+}

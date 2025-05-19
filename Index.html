@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBConsulenze - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MBConsulenze</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="computer-e-smartphone.html">Computer e Smartphone</a></li>
+                    <li><a href="videosorveglianza.html">Videosorveglianza</a></li>
+                    <li><a href="assistenza-tecnica.html">Assistenza Tecnica</a></li>
+                    <li><a href="gestore-telefonico.html">Gestore Telefonico</a></li>
+                    <li><a href="cartoleria.html">Cartoleria</a></li>
+                    <li><a href="libri-scuola.html">Libri per la Scuola</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="main-content">
+            <section id="info-negozio">
+                <h2>Informazioni Negozio</h2>
+                <p><strong>Località:</strong> [Inserisci la località del negozio qui]</p>
+                <p><strong>Indirizzo:</strong> [Inserisci l'indirizzo completo qui]</p>
+                <p><strong>Telefono:</strong> [Inserisci il numero di telefono]</p>
+                <p><strong>Email:</strong> <a href="mailto:[inserisci@email.com]">[inserisci@email.com]</a></p>
+                
+                <h3>Dove Trovarci</h3>
+                <div id="google-maps-widget">
+                    <!-- 
+                        Incolla qui il codice embed di Google Maps.
+                        Puoi generarlo andando su Google Maps, cercando il tuo indirizzo,
+                        cliccando su "Condividi" e poi "Incorpora una mappa".
+                        Esempio: <iframe src="https://www.google.com/maps/embed?pb=..."></iframe> 
+                    -->
+                    <p style="text-align: center; padding: 20px; border: 1px dashed #ccc;">
+                        Spazio riservato alla mappa di Google Maps.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <aside id="news-sidebar">
+            <h2>Ultime Notizie</h2>
+            <input type="text" id="news-filter" placeholder="Filtra notizie per tag...">
+            <div id="news-container">
+                <!-- Le notizie verranno caricate qui da news.json -->
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MBConsulenze. Tutti i diritti riservati.</p>
+            <p>
+                [Eventuali altre informazioni: P.IVA, ecc.]
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
